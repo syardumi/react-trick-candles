@@ -1,3 +1,11 @@
 .App {
   text-align: left;
 }
+
+.container {
+  padding: 5%;
+}
+
+label {
+  font-weight: bold;
+}

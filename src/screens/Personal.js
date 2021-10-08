@@ -1,5 +1,4 @@
 import { Button, Navbar, Container, Row, Col} from 'react-bootstrap';
-import '../styles/shared.css'
 import { onLightSwitch } from '../services/particle'
 
 function Personal() {

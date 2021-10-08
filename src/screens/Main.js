@@ -1,14 +1,18 @@
+import React, { useEffect } from 'react'
 import { Button, Navbar, Container, Row, Col} from 'react-bootstrap';
 import { onLightSwitch } from '../services/particle'
-import '../styles/shared.css'
 
 function Main() {
 
+  useEffect(() => {
+    document.title = 'Butterscotch Pudding'
+  }, [])
+
   return (
-    <div className="Personal">
+    <div className="Main">
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>Mos Eisley Cantina - Bedroom</Navbar.Brand>
+          <Navbar.Brand>Mos Eisley Cantina - Living Room</Navbar.Brand>
         </Container>
       </Navbar>
       <Container>
